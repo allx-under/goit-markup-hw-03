@@ -250,7 +250,7 @@ padding-bottom: 94px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-top: 30px;
+  
   margin-bottom: 10px;
 }
 
@@ -263,7 +263,7 @@ padding-bottom: 94px;
 }
 
 .team-list-item {
-  background-color: var(--main-bgc-color);
+  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -273,7 +273,9 @@ padding-bottom: 94px;
 }
 
 .team-container {
-  margin-bottom: 30px;
+  padding-top: 30px;
+  background-color: var(--main-bgc-color);
+  padding-bottom: 30px;
 }
 /* --------------Footer-------------- */
 
@@ -374,7 +376,6 @@ padding-bottom: 94px;
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
-  border:1px solid #EEEEEE;
   background-color: var(--main-bgc-color);
 }
 
@@ -395,6 +396,7 @@ padding-bottom: 94px;
 }
 
 .text-container {
-  margin-left: 24px;
-  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border: 1px solid #EEEEEE;
 }
