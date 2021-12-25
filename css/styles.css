@@ -43,7 +43,7 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid springgreen;
+ 
 }
 
 .header .container {
@@ -262,20 +262,16 @@ padding-bottom: 94px;
   color: var(--secondary-color);
 }
 
-.team-list-item {
-  
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
 .team-list-item:not(:last-child) {
   margin-right: 30px
 }
 
 .team-container {
   padding-top: 30px;
+  padding-bottom: 30px; 
   background-color: var(--main-bgc-color);
-  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /* --------------Footer-------------- */
 
